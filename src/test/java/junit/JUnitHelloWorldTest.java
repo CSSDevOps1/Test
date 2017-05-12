@@ -22,9 +22,7 @@ public class JUnitHelloWorldTest {
 
 	@Test
 	public void isGreaterTest() {
-		System.out.println("Test");
-		JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is greater than Num 2", tester.isGreater(2, 3));
+		
 	}
 
 	@After
